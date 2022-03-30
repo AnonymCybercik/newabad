@@ -1,0 +1,117 @@
+.header {
+    position: relative;
+    width: 100%;
+    padding: 16px 0;
+    border-bottom: 1px solid #e3e9ef;
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        li {
+            display: flex;
+            .top {
+                font-size: 12px;
+                line-height: 16px;
+                color: #7d879c;
+            }
+            .bottom {
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 22px;
+                color: #4b566b;
+            }
+        }
+    }
+    .drop-icon {
+        margin-left: 1.25rem;
+    }
+    .logo {
+        margin-left: 5.625rem;
+    }
+    .search-section {
+        display: flex;
+        align-items: center;
+    }
+    .search-box {
+        margin-left: 2.5rem;
+        background-color: #f3f6f9;
+        height: 3rem;
+        width: 35.8125rem;
+        border-radius: 1.6392rem;
+        align-items: center;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        .allcategories {
+            margin-left: 1.25rem;
+        }
+        .search-inp {
+            border: none;
+            background: none;
+            padding: 1rem 1.25rem;
+            width: 20.75rem;
+            outline: none;
+            border-left: 1px solid #e3e9ef;
+            height: 0.0625rem;
+            margin-left: 1rem;
+            font-size: 0.9375rem;
+        }
+    }
+    .contacts {
+        margin-left: 2.5rem;
+
+        li {
+            align-items: center;
+            margin: 0 1.125rem !important;
+
+            img {
+                margin-right: 1rem;
+            }
+        }
+    }
+}
+.second-section {
+    color: #4b566b;
+    display: flex;
+    justify-content: space-between;
+    width: 74%;
+
+    ul {
+        height: 3.5rem;
+        display: flex;
+        align-items: center;
+        margin-left: 5%;
+
+        li {
+            display: flex;
+            align-items: center;
+            padding: 0 1rem;
+            font-size: 16px;
+            line-height: 22px;
+            color: #4b566b;
+            font-weight: 400;
+            .text-with-icon {
+                margin: 6px;
+            }
+
+            .category-drop-text {
+                margin: 0 0.5rem;
+            }
+        }
+
+        .categories {
+            border-right: 0.0625rem solid #e3e9ef;
+            height: 1.75rem;
+            padding-right: 1.625rem;
+        }
+
+        list-style: none;
+        a {
+            color: #4b566b;
+            text-decoration: none;
+        }
+    }
+}
