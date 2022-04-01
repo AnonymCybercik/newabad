@@ -6,17 +6,17 @@ import primg from "../../assets/images/primg.png";
 import starfill from "../../assets/images/Starfill.png";
 import star from "../../assets/images/Star.png";
 
-function index() {
+function index({title,linktitle}) {
     return (
         <div className="products">
             <div className="head-piece">
-                <span className="title">Category</span>
+                <span className="title">{title}</span>
                 <Link to="/">
-                    All Categories<i className="fa fa-angle-right"></i>
+                    All {linktitle}<i className="fa fa-angle-right"></i>
                 </Link>
             </div>
 
-            <div className="product-card">
+            <span className="product-card">
                 <div className="card-top">
                     <div className="tags">30% OFF</div>
                     <div className="like">
@@ -41,7 +41,7 @@ function index() {
                 <button className="shop-card">Add to Card</button>
                     <Link to="/" className="quick">Quick view</Link>
                 </center>
-            </div>
+            </span>
 
             <div className="product-card">
                 <div className="card-top">
