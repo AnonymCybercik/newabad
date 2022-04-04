@@ -61,8 +61,13 @@
     }
     .contacts {
         margin-left: 2.5rem;
-
+        
+        .contact {
+            width: 10.5rem;
+        }
+        
         li {
+            
             align-items: center;
             margin: 0 1.125rem !important;
 
@@ -70,9 +75,8 @@
                 margin-right: 1rem;
             }
 
-            .loked{
+            .liked{
                 margin-right: 0!important;
-
             }
         }
     }

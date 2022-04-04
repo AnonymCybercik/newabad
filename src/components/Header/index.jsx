@@ -53,7 +53,7 @@ function index() {
                     </li>
                     <li>
                         <ul className="contacts">
-                            <li>
+                            <li className="contact">
                                 <img
                                     src={phone}
                                     width="16px"
@@ -67,7 +67,7 @@ function index() {
                                     </div>
                                 </div>
                             </li>
-                            <li style={{margin:"0"}}>
+                            <li >
                                 <img 
                                     src={liked}
                                     width="22px"
