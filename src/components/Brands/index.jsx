@@ -1,8 +1,9 @@
 import React from "react";
 import brand from "../../assets/images/brand.png";
 import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import './brands.scss'
+import "./brands.scss";
 
 function index() {
     return (
@@ -13,26 +14,44 @@ function index() {
                     All Offers<i className="fa fa-angle-right"></i>
                 </Link>
             </div>
-            <span className="brand">
-                <img src={brand} width="297px" alt="" />
-                <div className="title">APPLE</div>
-                <div className="text">New Rose gold Iphone 13</div>
-            </span>
-            <span className="brand">
-                <img src={brand} width="297px" alt="" />
-                <div className="title">APPLE</div>
-                <div className="text">New Rose gold Iphone 13</div>
-            </span>
-            <span className="brand">
-                <img src={brand} width="297px" alt="" />
-                <div className="title">APPLE</div>
-                <div className="text">New Rose gold Iphone 13</div>
-            </span>
-            <span className="brand">
-                <img src={brand} width="297px" alt="" />
-                <div className="title">APPLE</div>
-                <div className="text">New Rose gold Iphone 13</div>
-            </span>
+            <Swiper spaceBetween={16} slidesPerView={4}>
+                <SwiperSlide>
+                    <span className="brand">
+                        <img src={brand} width="297px" alt="" />
+                        <div className="title">APPLE</div>
+                        <div className="text">New Rose gold Iphone 13</div>
+                    </span>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <span className="brand">
+                        <img src={brand} width="297px" alt="" />
+                        <div className="title">APPLE</div>
+                        <div className="text">New Rose gold Iphone 13</div>
+                    </span>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <span className="brand">
+                        <img src={brand} width="297px" alt="" />
+                        <div className="title">APPLE</div>
+                        <div className="text">New Rose gold Iphone 13</div>
+                    </span>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <span className="brand">
+                        <img src={brand} width="297px" alt="" />
+                        <div className="title">APPLE</div>
+                        <div className="text">New Rose gold Iphone 13</div>
+                    </span>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <span className="brand">
+                        <img src={brand} width="297px" alt="" />
+                        <div className="title">APPLE</div>
+                        <div className="text">New Rose gold Iphone 13</div>
+                    </span>
+                </SwiperSlide>
+
+            </Swiper>
         </div>
     );
 }

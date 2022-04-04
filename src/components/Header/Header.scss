@@ -1,7 +1,8 @@
 .header {
     position: relative;
     width: 100%;
-    padding: 16px 0;
+    padding: 16px 80px;
+    // margin-left: -80px;
     border-bottom: 1px solid #e3e9ef;
     ul {
         list-style: none;
@@ -28,15 +29,12 @@
     .drop-icon {
         margin-left: 1.25rem;
     }
-    .logo {
-        margin-left: 5.625rem;
-    }
+   
     .search-section {
         display: flex;
         align-items: center;
     }
     .search-box {
-        margin-left: 2.5rem;
         background-color: #f3f6f9;
         height: 3rem;
         width: 35.8125rem;
@@ -67,7 +65,7 @@
             align-items: center;
             margin: 0 1.125rem !important;
 
-            img {
+            img {   
                 margin-right: 1rem;
             }
         }
@@ -77,13 +75,11 @@
     color: #4b566b;
     display: flex;
     justify-content: space-between;
-    width: 74%;
 
     ul {
         height: 3.5rem;
         display: flex;
         align-items: center;
-        margin-left: 5%;
 
         li {
             display: flex;

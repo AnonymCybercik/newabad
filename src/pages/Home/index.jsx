@@ -12,20 +12,20 @@ import banner3 from "../../assets/images/shop3.png";
 
 function index() {
     return (
-        <div>
-            <Header></Header>
-            <Banner></Banner>
-
-            <section className="sections">
-                <Categories></Categories>
+        <div className="main-container">
+            <div className="container">
+                <Header></Header>
+                <Banner></Banner>
                 <Brands></Brands>
+
+                <Categories></Categories>
                 <Products
                     title="Trending Products"
                     linktitle="Products"
                 ></Products>
                 <Products title="Best Seller" linktitle="Products"></Products>
                 <Products title="Best Seller" linktitle="Products"></Products>
-                <div style={{display:"flex"}}>
+                <div style={{ display: "flex" }}>
                     <div className="shop-banner1">
                         <div className="text">
                             Top Rated
@@ -65,12 +65,12 @@ function index() {
                         <img src={banner3} alt="" />
                     </div>
                 </div>
-            </section>
 
-            <br />
-            <br />
-            <br />
-            <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
         </div>
     );
 }
