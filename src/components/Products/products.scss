@@ -1,13 +1,15 @@
 .products {
-    margin-top: 3.875rem;
     .product-card {
         width: 239px;
-        height: 339px;
+        height: 425px;
+        position: relative;
         border-radius: 16px;
         display: inline-block;
         padding: 12px 12px 25px 13px;
         background-color: #FFF;
         margin-right: 16px;
+        z-index: 1;
+        transition: 0.2s;
 
         .tags {
             background: rgba(217, 46, 38, 0.15);
@@ -74,6 +76,10 @@
             margin-top: 14px;
             margin-bottom: 0.5rem;
             display: none;
+            position: absolute;
+            left:50%;
+            transform: translateX(-50%);
+            cursor: pointer;
         }
         .quick {
             font-weight: 400;
@@ -82,11 +88,18 @@
             color: #4b566b;
             text-decoration: none;
             display: none;
+            position: absolute;
+            left:50%;
+            transform: translateX(-50%);
+            top: 26.875rem;
+            cursor: pointer;
+            
         }
     }
     .product-card:hover {
         filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.1));
-        height: 420px;
+        z-index: 3;
+
     }
 
     .product-card:hover .quick {

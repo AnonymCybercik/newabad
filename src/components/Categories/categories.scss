@@ -1,6 +1,6 @@
 .categories-box {
     margin-top: 3.875rem;
-
+    padding-bottom: 3.875rem;
    
 
     .body-piece {
@@ -34,6 +34,7 @@
         font-size: 24px;
         line-height: 33px;
         color: #1f1e2e;
+        z-index: 2 !important;
     }
 
     a {

@@ -142,9 +142,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-<div className="vertical__line">
-  <div className="line"></div>
-</div>
+      <div className="vertical__line">
+        <div className="line"></div>
+      </div>
       <div className="bottom__section">
         <div className="about__section">
           <div className="logo">
