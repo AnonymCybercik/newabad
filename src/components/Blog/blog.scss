@@ -1,0 +1,83 @@
+.blog {
+    width: 100%;
+    display: flex;
+    margin-top: 3.875rem;
+    padding-bottom: 3.875rem;
+    .blog-box {
+        margin-right: 24px;
+
+        .blog-item {
+            padding: 0 1rem;
+            border-right: 1px solid #e3e9ef;
+        }
+        .blogs {
+            border: 1px solid #e3e9ef;
+            border-radius: 16px;
+            display: flex;
+            width: 51.25rem;
+            margin-top: 1.75rem;
+            padding: 1rem 0;
+        }
+        .title {
+            font-weight: 600;
+            font-size: 1.5rem;
+            line-height: 2.0625rem;
+            color: #1f1e2e;
+        }
+        a {
+            font-weight: 400;
+            font-size: 0.8125rem;
+            line-height: 1.125rem;
+            color: #4b566b;
+            text-decoration: none;
+            margin-left: 1.5rem;
+
+            i {
+                margin-left: 0.4375rem;
+            }
+        }
+
+        .info {
+            width: 23.625rem;
+
+            .author,
+            .date {
+                font-weight: 400;
+                font-size: 0.875rem;
+                line-height: 1.25rem;
+                display: flex;
+                align-items: center;
+                color: #7d879c;
+            }
+        }
+    }
+
+    .ads {
+        width: 26rem;
+        height: 24.875rem;
+        background: #f3f6f9;
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .ads-title {
+            font-weight: 600;
+            font-size: 1.5rem;
+            line-height: 1.875rem;
+            width: 10.5625rem;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #1f1e2e;
+        }
+
+        .ads-text {
+            font-weight: 400;
+            font-size: 0.75rem;
+            line-height: 1rem;
+            margin-top: 14px;
+            color: #4b566b;
+        }
+    }
+}

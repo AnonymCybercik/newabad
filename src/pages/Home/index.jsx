@@ -9,6 +9,12 @@ import { Link } from "react-router-dom";
 import banner1 from "../../assets/images/shop1.png";
 import banner2 from "../../assets/images/shop2.png";
 import banner3 from "../../assets/images/shop3.png";
+import Footer from "../../components/Footer"
+import Partners from "../../components/Partners"
+import Recomended from "../../components/Recommended"
+import YouTube from "../../components/YouTube"
+import Blog from "../../components/Blog"
+
 
 function index() {
     return (
@@ -16,9 +22,9 @@ function index() {
             <div className="container">
                 <Header></Header>
                 <Banner></Banner>
-                <Brands></Brands>
 
                 <Categories></Categories>
+                <Brands></Brands>
                 <Products
                     title="Trending Products"
                     linktitle="Products"
@@ -38,7 +44,7 @@ function index() {
                                 Shop now <i className="fa fa-angle-right"></i>
                             </Link>
                         </div>
-                        <img src={banner1} alt="" />
+                        <img src={banner3} alt="" />
                     </div>
                     <div className="shop-banner2">
                         <div className="text">
@@ -62,15 +68,15 @@ function index() {
                                 Shop now <i className="fa fa-angle-right"></i>
                             </Link>
                         </div>
-                        <img src={banner3} alt="" />
+                        <img src={banner1} alt="" />
                     </div>
                 </div>
-
-                <br />
-                <br />
-                <br />
-                <br />
+                <Partners></Partners>
+                <Recomended></Recomended>
+                <YouTube></YouTube>
+                <Blog></Blog>
             </div>
+            <Footer></Footer>
         </div>
     );
 }
