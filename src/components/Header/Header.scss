@@ -41,8 +41,9 @@
         border-radius: 1.6392rem;
         align-items: center;
         font-weight: 400;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: .9375rem;
+        line-height: 1.25rem;
+        margin-left: 2.5rem;
         .allcategories {
             margin-left: 1.25rem;
         }
@@ -67,6 +68,11 @@
 
             img {   
                 margin-right: 1rem;
+            }
+
+            .loked{
+                margin-right: 0!important;
+
             }
         }
     }

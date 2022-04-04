@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./blog.scss";
 import ytvid from "../../assets/images/yt-video.png";
+import appstore from "../../assets/images/appstore.png"
 
 function index() {
     return (
@@ -45,8 +46,8 @@ function index() {
                     <span></span>
                 </div>
                 <div className="ads-images">
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                    <img src={appstore} width='105px' alt="" />
+                    <img src={appstore} width='105px' alt="" />
                 </div>
             </div>
         </div>

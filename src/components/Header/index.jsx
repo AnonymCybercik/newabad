@@ -67,13 +67,13 @@ function index() {
                                     </div>
                                 </div>
                             </li>
-                            <li>
-                                <img
+                            <li style={{margin:"0"}}>
+                                <img 
                                     src={liked}
                                     width="22px"
                                     height="20px"
+                                    className="liked"
                                     alt=""
-                                    style={{ margin: "0!important" }}
                                 />
                             </li>
                             <li>
