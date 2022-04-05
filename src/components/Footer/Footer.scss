@@ -12,6 +12,9 @@
 		@media screen and (min-width: 1440px) {
 			// display: flex;
 			justify-content: space-evenly;
+			.container {
+				transform: translateX(18%!important);
+			}
 		}
 
 		.categories {

@@ -4,19 +4,14 @@
     padding: 0;
 }
 .container{
-    width: 1260px;
-    transform: translateX(25%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
-.sections{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+
+.sections {
+    margin-left: 320px;
 }
 
 .shop-banner1 {
@@ -106,3 +101,28 @@
         margin-left: 6px;
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .container {
+        width: 100%;
+    }
+    .second-section{
+        width: 89%;
+    }
+    .main-banner {
+        width: 100%;
+        margin-left: 0;
+    }
+    .header {
+        padding: 16px 0;
+        margin-left:0;
+    }
+    .sections {
+        margin-left: 90px;
+    }
+}
+// @media screen and (max-width: 1024px) {
+//     .container {
+//         transform: translateX(13.5%);
+//     }
+// }

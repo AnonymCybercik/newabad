@@ -9,74 +9,42 @@ import { Link } from "react-router-dom";
 import banner1 from "../../assets/images/shop1.png";
 import banner2 from "../../assets/images/shop2.png";
 import banner3 from "../../assets/images/shop3.png";
-import Footer from "../../components/Footer"
-import Partners from "../../components/Partners"
-import Recomended from "../../components/Recommended"
-import YouTube from "../../components/YouTube"
-import Blog from "../../components/Blog"
-
+import Footer from "../../components/Footer";
+import Partners from "../../components/Partners";
+import Recomended from "../../components/Recommended";
+import YouTube from "../../components/YouTube";
+import Blog from "../../components/Blog";
+import Deals from "../../components/Deals";
 
 function index() {
     return (
-        <div className="main-container">
-            <div className="container">
+        <div>
+            <div className="">
                 <Header></Header>
                 <Banner></Banner>
-
-                <Categories></Categories>
-                <Brands></Brands>
-                <Products
-                    title="Trending Products"
-                    linktitle="Products"
-                ></Products>
-                <Products title="Best Seller" linktitle="Products"></Products>
-                <Products title="Best Seller" linktitle="Products"></Products>
-                <div style={{ display: "flex" }}>
-                    <div className="shop-banner1">
-                        <div className="text">
-                            Top Rated
-                            <br />
-                            <b>Gadgets</b>
-                            <br />
-                            are on <b>Sale</b>
-                            <br />
-                            <Link to="/" className="shop-btn">
-                                Shop now <i className="fa fa-angle-right"></i>
-                            </Link>
-                        </div>
-                        <img src={banner3} alt="" />
-                    </div>
-                    <div className="shop-banner2">
-                        <div className="text">
-                            Catch Big <br />
-                            <b>Deals</b> on <br />
-                            <b> Earbuds</b>
-                            <br />
-                            <Link to="/" className="shop-btn">
-                                Shop now <i className="fa fa-angle-right"></i>
-                            </Link>
-                        </div>
-                        <img src={banner2} alt="" />
-                    </div>
-                    <div className="shop-banner3">
-                        <div className="text">
-                            Catch Big <br />
-                            <b>Deals</b> on <br />
-                            <b> Earbuds</b>
-                            <br />
-                            <Link to="/" className="shop-btn">
-                                Shop now <i className="fa fa-angle-right"></i>
-                            </Link>
-                        </div>
-                        <img src={banner1} alt="" />
-                    </div>
-                </div>
-                <Partners></Partners>
-                <Recomended></Recomended>
-                <YouTube></YouTube>
-                <Blog></Blog>
+                <section className="sections">
+                    <Categories></Categories>
+                    <Brands></Brands>
+                    <Products
+                        title="Trending Products"
+                        linktitle="Products"
+                    ></Products>
+                    <Products
+                        title="Best Seller"
+                        linktitle="Products"
+                    ></Products>
+                    <Products
+                        title="Best Seller"
+                        linktitle="Products"
+                    ></Products>
+                    <Deals></Deals>
+                    <Partners></Partners>
+                    <Recomended></Recomended>
+                    <YouTube></YouTube>
+                    <Blog></Blog>
+                </section>
+                <Footer></Footer>
             </div>
-            <Footer></Footer>
         </div>
     );
 }
