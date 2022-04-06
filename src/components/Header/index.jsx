@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 import "./Header.scss";
 function index() {
     return (
-        <div>
+        <>
             <div className="header">
                 <ul>
                     <li className="logo">
@@ -67,8 +67,8 @@ function index() {
                                     </div>
                                 </div>
                             </li>
-                            <li >
-                                <img 
+                            <li>
+                                <img
                                     src={liked}
                                     width="22px"
                                     height="20px"
@@ -103,10 +103,9 @@ function index() {
                         </ul>
                     </li>
                 </ul>
-            </div>
-            <center>
                 <div className="second-section">
                     <ul>
+                    <div className="float-left">
                         <li className="categories">
                             <img src={type} alt="" />
                             <span className="category-drop-text">
@@ -138,20 +137,28 @@ function index() {
                         <li>
                             <Link to="/">Customer Service</Link>
                         </li>
-                    </ul>
-                    <ul className="right-side">
-                        <li style={{borderRight:"1px solid #E3E9EF", height: "1.75rem"}}>
-                            <img src={location} alt="" />
-                            <span className="text-with-icon">Tashkent</span>
-                        </li>
-                        <li>
-                            <span className="text-with-icon">Eng / USD</span>
-                            <img src={drop} alt="" />
-                        </li>
+                        </div>
+                        <div className="float-right">
+                            <li
+                                style={{
+                                    borderRight: "1px solid #E3E9EF",
+                                    height: "1.75rem",
+                                }}
+                            >
+                                <img src={location} alt="" />
+                                <span className="text-with-icon">Tashkent</span>
+                            </li>
+                            <li>
+                                <span className="text-with-icon">
+                                    Eng / USD
+                                </span>
+                                <img src={drop} alt="" />
+                            </li>
+                        </div>
                     </ul>
                 </div>
-            </center>
-        </div>
+            </div>
+        </>
     );
 }
 

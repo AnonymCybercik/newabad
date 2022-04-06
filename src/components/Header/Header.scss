@@ -1,9 +1,8 @@
 .header {
     position: relative;
     width: 100%;
-    padding: 16px 80px;
-    margin-left: -80px;
-    border-bottom: 1px solid #e3e9ef;
+    padding: 16px 0 0 0;
+    height: 136px;
     ul {
         list-style: none;
         padding: 0;
@@ -29,7 +28,7 @@
     .drop-icon {
         margin-left: 1.25rem;
     }
-   
+
     .search-section {
         display: flex;
         align-items: center;
@@ -41,7 +40,7 @@
         border-radius: 1.6392rem;
         align-items: center;
         font-weight: 400;
-        font-size: .9375rem;
+        font-size: 0.9375rem;
         line-height: 1.25rem;
         margin-left: 2.5rem;
         .allcategories {
@@ -50,8 +49,8 @@
         .search-inp {
             border: none;
             background: none;
-            padding: 1rem 1.25rem;
-            width: 20.75rem;
+            padding: 1rem;
+            width: 18.25rem;
             outline: none;
             border-left: 1px solid #e3e9ef;
             height: 0.0625rem;
@@ -61,40 +60,36 @@
     }
     .contacts {
         margin-left: 2.5rem;
-        
+
         .contact {
             width: 10.5rem;
         }
-        
+
         li {
-            
             align-items: center;
             margin: 0 1.125rem !important;
 
-            img {   
+            img {
                 margin-right: 1rem;
             }
 
-            .liked{
-                margin-right: 0!important;
+            .liked {
+                margin-right: 0 !important;
             }
         }
     }
 }
 .second-section {
     color: #4b566b;
-    display: flex;
-    justify-content: space-between;
-    width: 75%;
+    width: 100%;
+    border-top: 1px solid #e3e9ef;
 
     ul {
-        height: 3.5rem;
-        display: flex;
-        align-items: center;
-
-        li {
-            display: flex;
-            align-items: center;
+        display: block;
+        margin: 0;
+    margin-top: 16px;
+    li {
+            display: inline-block;
             padding: 0 1rem;
             font-size: 16px;
             line-height: 22px;
@@ -113,6 +108,7 @@
             border-right: 0.0625rem solid #e3e9ef;
             height: 1.75rem;
             padding-right: 1.625rem;
+            padding-left: 0;
         }
 
         list-style: none;

@@ -1,13 +1,18 @@
 .partners {
     border-radius: 1rem;
-    border: 1px solid #E3E9EF;
+    border: 1px solid #e3e9ef;
     margin-top: 3.875rem;
-    width: 78.75rem;
+    width: 100%;
     .partner-item {
         width: 13.125rem;
         height: 6.875rem;
         display: inline-flex;
         align-items: center;
         justify-content: center;
+
+        img {
+            width: 9.375rem;
+            height: 2.5rem;
+        }
     }
 }

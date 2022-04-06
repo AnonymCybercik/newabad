@@ -15,11 +15,12 @@ import Recomended from "../../components/Recommended";
 import YouTube from "../../components/YouTube";
 import Blog from "../../components/Blog";
 import Deals from "../../components/Deals";
+import "../../assets/scss/bootstrap.scss"
 
 function index() {
     return (
         <div>
-            <div className="">
+            <div className="container" style={{padding:"0"}}>
                 <Header></Header>
                 <Banner></Banner>
                 <section className="sections">
@@ -43,8 +44,8 @@ function index() {
                     <YouTube></YouTube>
                     <Blog></Blog>
                 </section>
-                <Footer></Footer>
             </div>
+            <Footer></Footer>
         </div>
     );
 }

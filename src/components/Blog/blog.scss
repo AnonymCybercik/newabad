@@ -6,9 +6,12 @@
     .blog-box {
         margin-right: 24px;
 
-        .blog-item {
-            padding: 0 1rem;
+        .blog-item:nth-child(1) {
+            padding:0 1rem;
             border-right: 1px solid #e3e9ef;
+        }
+        .blog-item:nth-child(2) {
+            padding:0 1rem;
         }
         .blogs {
             border: 1px solid #e3e9ef;
