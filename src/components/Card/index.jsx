@@ -4,6 +4,8 @@ import like from "../../assets/images/liked.png";
 import primg from "../../assets/images/primg.png";
 import starfill from "../../assets/images/Starfill.png";
 import "./card.scss";
+import store_light from "../../assets/images/store_light.svg"
+import eye from "../../assets/images/eye.svg"
 
 function index() {
     return (
@@ -29,9 +31,9 @@ function index() {
                 </div>
             </div>
             <center>
-                <button className="shop-card">Add to Card</button>
+                <button className="shop-card"><img src={store_light} width="12px" height="14px" style={{marginRight:"6px"}} alt="" />Add to Card</button>
                 <Link to="/" className="quick">
-                    Quick view
+                <img src={eye} alt="" style={{marginRight:"6px"}} /> Quick view
                 </Link>
             </center>
         </div>

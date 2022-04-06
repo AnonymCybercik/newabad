@@ -87,9 +87,10 @@
     ul {
         display: block;
         margin: 0;
-    margin-top: 16px;
+    margin-top: 12px;
     li {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
             padding: 0 1rem;
             font-size: 16px;
             line-height: 22px;

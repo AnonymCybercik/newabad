@@ -15,7 +15,8 @@ function index() {
                     <br />
                     are on <b>Sale</b>
                     <br />
-                    <Link to="/" className="shop-btn">
+                    <br />
+                    <Link to="/" className="shop-btn" style={{color:"#1BBBEA"}}>
                         Shop now <i className="fa fa-angle-right"></i>
                     </Link>
                 </div>
@@ -27,7 +28,8 @@ function index() {
                     <b>Deals</b> on <br />
                     <b> Earbuds</b>
                     <br />
-                    <Link to="/" className="shop-btn">
+                    <br />
+                    <Link to="/" className="shop-btn" style={{color:"#4B566B"}}>
                         Shop now <i className="fa fa-angle-right"></i>
                     </Link>
                 </div>
@@ -39,7 +41,8 @@ function index() {
                     <b>Deals</b> on <br />
                     <b> Earbuds</b>
                     <br />
-                    <Link to="/" className="shop-btn">
+                    <br />
+                    <Link to="/" className="shop-btn" style={{color:"#E55452"}}>
                         Shop now <i className="fa fa-angle-right"></i>
                     </Link>
                 </div>

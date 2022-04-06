@@ -7,11 +7,11 @@
         margin-right: 24px;
 
         .blog-item:nth-child(1) {
-            padding:0 1rem;
+            padding: 0 1rem;
             border-right: 1px solid #e3e9ef;
         }
         .blog-item:nth-child(2) {
-            padding:0 1rem;
+            padding: 0 1rem;
         }
         .blogs {
             border: 1px solid #e3e9ef;
@@ -42,15 +42,25 @@
 
         .info {
             width: 23.625rem;
+            margin-top: 1rem;
 
             .author,
             .date {
                 font-weight: 400;
                 font-size: 0.875rem;
                 line-height: 1.25rem;
-                display: flex;
+                display: inline-flex;
                 align-items: center;
                 color: #7d879c;
+                padding-bottom: 0.5rem;
+            }
+            .author {
+                padding-right: 1.1875rem;
+                border-right: 1px solid #e3e9ef;
+            }
+
+            .date {
+                padding-left: 1rem;
             }
         }
     }
@@ -84,8 +94,8 @@
         }
         .ads-images {
             margin-top: 1.5rem;
-            img{
-                margin-right: .5rem;
+            img {
+                margin-right: 0.5rem;
             }
         }
     }
