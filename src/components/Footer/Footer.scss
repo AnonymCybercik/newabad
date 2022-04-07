@@ -7,11 +7,11 @@
 		padding-bottom: 40px;
 		background-color: #1F1E2E;
 		display: flex;
-		// justify-content: center;
+		// justify-content: space-evenly;
 
 		@media screen and (min-width: 1440px) {
 			// display: flex;
-			justify-content: space-evenly;
+			justify-content: space-around;
 			.container {
 				transform: translateX(18%!important);
 			}
@@ -19,8 +19,12 @@
 
 		.categories {
 			width: 400px;
-			@media screen and (min-width: 1440px) and (max-width: 1920px) {
+			// background: red;
+			@media screen and (min-width: 1920px) {
 				width: 500px;
+			}
+			@media screen and (min-width: 1440px) {
+				width: 450px;
 			}
 			@media screen and (max-width: 1440px) {
 				width: 400px;
@@ -73,8 +77,12 @@
 
 		.account {
 			width: 400px;
-			@media screen and (min-width: 1440px) and (max-width: 1920px) {
+			// background: blue;
+			@media screen and (min-width: 1920px) {
 				width: 500px;
+			}
+			@media screen and (min-width: 1440px) {
+				width: 450px;
 			}
 			@media screen and (min-width: 1440px) {
 				width: 400px;
@@ -121,12 +129,15 @@
 			.aboutus {
 				width: 400px;
 				padding-top: 15px;
-			@media screen and (min-width: 1440px) and (max-width: 1920px) {
-				width: 500px;
-			}
-						@media screen and (min-width: 1440px) {
-				width: 400px;
-			}
+				@media screen and (min-width: 1920px) {
+					width: 500px;
+				}
+				@media screen and (min-width: 1440px) {
+					width: 450px;
+				}
+				@media screen and (min-width: 1440px) {
+					width: 400px;
+				}
 				&__title {
 					margin-bottom: 18px;
 
@@ -176,9 +187,13 @@
 
 		.signup {
 			width: 400px;
-			@media screen and (min-width: 1440px) and (max-width: 1920px) {
+			@media screen and (min-width: 1440px) {
+				width: 450px;
+			}
+			@media screen and (min-width: 1920px) {
 				width: 500px;
 			}
+
 			@media screen and (min-width: 1440px) {
 				width: 400px;
 			}
@@ -311,7 +326,7 @@
 		padding-right: 90px;
 		padding-left: 90px;
 		background: #181824;
-
+		border: 1px solid #181824; 
 		&__wrapper {
 			display: flex;
 			justify-content: space-between;
@@ -373,6 +388,8 @@
 		padding-left: 90px;
 		background: #181824;
 		padding-top: 40px;
+		outline: none;
+		border: 1px solid #181824;
 		.about__section {
 			.logo {
 				display: flex;
@@ -505,6 +522,7 @@
 		padding-left: 90px;
 		padding-bottom: 24px;
 		padding-top: 41px;
+		border: none;
 		&__title {
 			p {
 				font-family: 'Open Sans';
